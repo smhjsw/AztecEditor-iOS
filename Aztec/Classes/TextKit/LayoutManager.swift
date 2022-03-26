@@ -287,7 +287,7 @@ private extension LayoutManager {
         var yOffset = CGFloat(0)
         var xOffset = CGFloat(0)
         let indentWidth = style.indentToLast(TextList.self)
-        let markerWidth = markerAttributedText.size().width * 1.5
+        let markerWidth = ceil(markerAttributedText.size().width * 1.5)
 
         if location > 0 {
             yOffset += style.paragraphSpacingBefore

@@ -329,10 +329,10 @@ open class ParagraphStyle: NSMutableParagraphStyle, CustomReflectable {
         style.lineSpacing = 8
         style.blockquoteParagraphSpacing = 8
         style.blockquoteParagraphSpacingBefore = 8
-        style.regularParagraphSpacing = 8
-        style.regularParagraphSpacingBefore = 8
-        style.textListParagraphSpacing = 0
-        style.textListParagraphSpacingBefore = 0
+        style.regularParagraphSpacing = 4
+        style.regularParagraphSpacingBefore = 4
+        style.textListParagraphSpacing = 4
+        style.textListParagraphSpacingBefore = 4
         
         return style
     }
